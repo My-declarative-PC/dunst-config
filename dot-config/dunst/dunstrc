@@ -1,22 +1,23 @@
 [global]
-format = "<b>%s</b>\n%b\n\n-=≡ <i>%a</i> ≡=-"
-corner_radius = 10
-progress_bar_corner_radius = 5
-font = "FiraCode 12"
-separator_color= frame
-frame_color = "#cba6f7"
-background  = "#1e1e2e"
-notification_limit = 0
-enable_recursive_icon_lookup = true
-icon_theme = "Papirus-Dark"
+	format = "<b>%s</b>\n%b\n\n-=≡ <i>%a</i> ≡=-"
+	follow = mouse
+	corner_radius = 12
+	progress_bar_corner_radius = 5
+	font = "FiraCode 12"
+	separator_color= frame
+	frame_color = "#bd93f9"
+	background  = "#282a36"
+	notification_limit = 0
+	enable_recursive_icon_lookup = true
+	icon_theme = "Dracula"
 
 [urgency_low]
-foreground  = "#94e2d5"
-frame_color = "#a6e3a1"
+	foreground  = "#94e2d5"
+	frame_color = "#6272a4"
 
 [urgency_normal]
-timeout = 40
+	timeout = 25
 
 [urgency_critical]
-foreground  = "#fab387"
-frame_color = "#eba0ac"
+	foreground  = "#ff5555"
+	frame_color = "#eba0ac"

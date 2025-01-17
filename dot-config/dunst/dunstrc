@@ -4,7 +4,7 @@
 	follow = mouse
 	corner_radius = 12
 	progress_bar_corner_radius = 5
-	font = "FiraCode 12"
+	font = "FiraCodeNerdFontMono 12"
 	separator_color= frame
 	background  = "#282a36"
 	notification_limit = 0

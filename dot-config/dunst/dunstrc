@@ -6,7 +6,7 @@
 	progress_bar_corner_radius = 5
 	font = "FiraCodeNerdFontMono 12"
 	separator_color= frame
-	background  = "#282a36"
+	background  = "#1e1e2e"
 	notification_limit = 0
 	enable_recursive_icon_lookup = true
 	icon_theme = "Dracula"
@@ -17,14 +17,14 @@
     mouse_right_click = close_all
 
 [urgency_low]
-	foreground  = "#8be9fd"
-	frame_color = "#6272a4"
+	foreground  = "#89dceb"
+	frame_color = "#6c7086"
 
 [urgency_normal]
-	foreground  = "#f8f8f2"
-	frame_color = "#bd93f9"
+	foreground  = "#cdd6f4"
+	frame_color = "#cba6f7"
 
 [urgency_critical]
 	timeout = 0
-	foreground  = "#ffb86c"
-	frame_color = "#ff5555"
+	foreground  = "#fab387"
+	frame_color = "#f38ba8"

@@ -2,8 +2,8 @@
 	timeout = 10
 	format = "<b>%s</b>\n%b\n\n<u><i>%a</i></u>"
 	follow = mouse
-	corner_radius = 15
-	progress_bar_corner_radius = 5
+	corner_radius = 0
+	progress_bar_corner_radius = 0
 	font = "FiraCodeNerdFontMono 12"
 	separator_color= frame
 	background  = "#1e1e2e"

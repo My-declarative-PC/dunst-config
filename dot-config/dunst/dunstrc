@@ -1,5 +1,6 @@
 [global]
 	timeout = 10
+	offset = 10x35
 	format = "<b>%s</b>\n%b\n\n<u><i>%a</i></u>"
 	follow = mouse
 	corner_radius = 0

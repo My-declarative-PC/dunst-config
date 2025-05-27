@@ -1,5 +1,4 @@
 [global]
-	timeout = 10
 	offset = 10x35
 	format = "<b>%s</b>\n%b\n\n<u><i>%a</i></u>"
 	follow = mouse
@@ -18,10 +17,12 @@
     mouse_right_click = close_all
 
 [urgency_low]
+	timeout = 3
 	foreground  = "#89dceb"
 	frame_color = "#6c7086"
 
 [urgency_normal]
+	timeout = 10
 	foreground  = "#cdd6f4"
 	frame_color = "#cba6f7"
 
